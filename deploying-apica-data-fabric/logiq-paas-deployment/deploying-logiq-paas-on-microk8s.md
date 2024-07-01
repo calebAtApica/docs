@@ -45,7 +45,11 @@ The first step in this deployment is to install MicroK8s on your machine. To ins
     sudo microk8s status
     ```
 
-MicroK8s is now installed on your machine.
+MicroK8s is now installed on your machine. If you see an error stating:
+```
+sudo: microk8s: command not found
+```
+Log out and back in as the user in question.
 
 ## Enabling add-ons
 
