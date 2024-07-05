@@ -4,9 +4,16 @@
 
 The following guide takes you through deploying Apica Ascent PaaS on MicroK8s.
 
+## Prerequisites
+
+- Ubuntu x64
+The machine will need to be large and resource heavy, as you will be hosting a web application on it. Therefore use the following specifications:
+- 16 vCPU
+- 32 GB
+
 ## Installing MicroK8s
 
-The first step in this deployment is to install MicroK8s on your machine. The following instructions pertain to Debian-based Linux systems. To install MicroK8s on such systems, do the following.
+The first step in this deployment is to install MicroK8s on your machine. To install MicroK8s on such systems, do the following.
 
 1.  Update package lists by running the following command.
 
